@@ -1,0 +1,52 @@
+[
+  {
+    "title":"Girl, Get Up",
+    "artists":"Doechii, SZA",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/jBKJbedSrA0?si=R2lDU0OMZmacY3tY",
+    "streams":3300000,
+    "date_released":2025,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Stupid Prizes",
+    "artists":"redveil",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/dj5nZsQ3p2o?si=gUrrDWxD-Bk3yThe",
+    "streams":3800,
+    "date_released":2025,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"underground"
+  },
+  {
+    "title":"The Field",
+    "artists":"Blood Orange",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/yTaz0TB9Zco?si=jUT7iM6EdyZHr-u3",
+    "streams":604906,
+    "date_released":2025,
+    "explicit":false,
+    "era":"contemporary",
+    "popularity":"well known"
+  },
+  {
+    "title":"Walking Shoes",
+    "artists":"Mali Music",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/1dexBLGQGSs?si=waNMbE0CHv9s_UeO",
+    "streams":100000000,
+    "date_released":2014,
+    "explicit":false,
+    "era":"classic",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Yoga",
+    "artists":"Janelle Monae",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/0OkB6p_FZAw?si=zMs0gzWyAUTZLrEM\"",
+    "streams":78267720,
+    "date_released":2015,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  }
+]
