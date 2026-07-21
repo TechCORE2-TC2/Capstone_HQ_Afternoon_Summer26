@@ -48,32 +48,32 @@
             display: grid;
             grid-template-columns: 1fr 1.2fr;
             gap: 24px;
-            align-items: start;
+            align-items: center;
             margin-bottom: 40px;
         }
 
         .song-list {
             background: white;
-            padding: 20px;
+            padding: 16px;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            max-height: 560px;
+            max-height: 430px;
             display: flex;
             flex-direction: column;
         }
         
         .song-list h2 {
-            margin-bottom: 12px;
+            margin-bottom: 10px;
             color: #333;
-            font-size: 1.3em;
+            font-size: 1.2em;
             flex-shrink: 0;
         }
 
         .filter-controls {
             display: flex;
-            gap: 12px;
+            gap: 8px;
             flex-wrap: wrap;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
             flex-shrink: 0;
         }
 
@@ -103,9 +103,9 @@
 
         .filter-summary {
             display: flex;
-            gap: 8px;
+            gap: 6px;
             flex-wrap: wrap;
-            margin-bottom: 12px;
+            margin-bottom: 8px;
             flex-shrink: 0;
         }
 
@@ -128,12 +128,14 @@
 
         #songsList {
             overflow-y: auto;
+            overflow-x: hidden;
             padding-right: 6px;
+            flex: 1;
         }
         
         .song-item {
-            padding: 12px 15px;
-            margin: 8px 0;
+            padding: 10px 12px;
+            margin: 6px 0;
             background: #f5f5f5;
             border-left: 4px solid #667eea;
             cursor: pointer;
@@ -145,9 +147,9 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            gap: 10px;
+            gap: 8px;
             flex-wrap: wrap;
-            margin-bottom: 4px;
+            margin-bottom: 3px;
         }
 
         .song-title {
@@ -182,6 +184,11 @@
             background: #f4e8ff;
             color: #7a3fb8;
         }
+
+        .tag-explicit {
+            background: #ffe1e1;
+            color: #c62828;
+        }
         
         .song-artist {
             font-size: 0.85em;
@@ -208,20 +215,24 @@
         
         .player-section {
             background: white;
-            padding: 30px;
+            padding: 24px;
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            height: 460px;
+            justify-content: flex-start;
         }
         
         .video-container {
             position: relative;
             width: 100%;
-            padding-bottom: 56.25%;
-            height: 0;
+            aspect-ratio: 16 / 9;
             overflow: hidden;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             border-radius: 8px;
             background: #000;
+            flex-shrink: 0;
         }
         
         .video-container iframe {
@@ -235,13 +246,18 @@
         
         .song-info {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 14px;
+            align-content: start;
         }
         
         @media (max-width: 900px) {
             .content-row {
                 grid-template-columns: 1fr;
+            }
+
+            .player-section {
+                height: auto;
             }
         }
 
@@ -253,7 +269,7 @@
         
         .info-item {
             background: #f9f9f9;
-            padding: 15px;
+            padding: 10px;
             border-radius: 5px;
             border-left: 4px solid #667eea;
         }
@@ -306,6 +322,14 @@
                             <option value="">All popularities</option>
                         </select>
                     </div>
+                    <div class="filter-group">
+                        <label for="explicitFilter">Explicit</label>
+                        <select id="explicitFilter" class="filter-select">
+                            <option value="">All songs</option>
+                            <option value="true">Explicit</option>
+                            <option value="false">Not explicit</option>
+                        </select>
+                    </div>
                 </div>
                 <div id="filterSummary" class="filter-summary"></div>
                 <div id="songsList"></div>
@@ -328,10 +352,6 @@
                     <div class="info-item">
                         <div class="info-label">Streams</div>
                         <div class="info-value" id="streams">-</div>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-label">Explicit</div>
-                        <div class="info-value" id="explicit">-</div>
                     </div>
                 </div>
             </div>
@@ -359,6 +379,16 @@
                 .filter(Boolean)
                 .map(part => part.charAt(0).toUpperCase() + part.slice(1))
                 .join(' ');
+        }
+
+        function isExplicit(song) {
+            if (typeof song.explicit === 'boolean') {
+                return song.explicit;
+            }
+            if (typeof song.explicit === 'string') {
+                return song.explicit.toLowerCase() === 'true';
+            }
+            return false;
         }
 
         function populateFilterOptions(songs) {
@@ -398,6 +428,7 @@
             const summary = document.getElementById('filterSummary');
             const eraValue = document.getElementById('eraFilter').value;
             const popularityValue = document.getElementById('popularityFilter').value;
+            const explicitValue = document.getElementById('explicitFilter').value;
             const chips = [];
 
             if (eraValue) {
@@ -405,6 +436,9 @@
             }
             if (popularityValue) {
                 chips.push(`<span class="filter-chip">Popularity: ${formatTag(popularityValue)}</span>`);
+            }
+            if (explicitValue) {
+                chips.push(`<span class="filter-chip">${explicitValue === 'true' ? 'Explicit' : 'Not explicit'}</span>`);
             }
 
             summary.innerHTML = chips.length > 0
@@ -415,11 +449,13 @@
         function getFilteredSongs() {
             const eraValue = document.getElementById('eraFilter').value;
             const popularityValue = document.getElementById('popularityFilter').value;
+            const explicitValue = document.getElementById('explicitFilter').value;
 
             return allSongs.filter(song => {
                 const matchesEra = !eraValue || song.era === eraValue;
                 const matchesPopularity = !popularityValue || song.popularity === popularityValue;
-                return matchesEra && matchesPopularity;
+                const matchesExplicit = explicitValue === '' || isExplicit(song) === (explicitValue === 'true');
+                return matchesEra && matchesPopularity && matchesExplicit;
             });
         }
 
@@ -428,7 +464,6 @@
             document.getElementById('artists').textContent = '-';
             document.getElementById('dateReleased').textContent = '-';
             document.getElementById('streams').textContent = '-';
-            document.getElementById('explicit').textContent = '-';
             document.querySelectorAll('.song-item.active').forEach(item => item.classList.remove('active'));
             selectedSong = null;
         }
@@ -473,6 +508,13 @@
                 popularityTag.className = 'tag tag-popularity';
                 popularityTag.textContent = formatTag(song.popularity);
 
+                if (isExplicit(song)) {
+                    const explicitTag = document.createElement('span');
+                    explicitTag.className = 'tag tag-explicit';
+                    explicitTag.textContent = 'Explicit';
+                    tags.appendChild(explicitTag);
+                }
+
                 tags.appendChild(eraTag);
                 tags.appendChild(popularityTag);
                 titleRow.appendChild(title);
@@ -513,6 +555,11 @@
                 renderSongs(getFilteredSongs());
             };
 
+            document.getElementById('explicitFilter').onchange = () => {
+                updateFilterSummary();
+                renderSongs(getFilteredSongs());
+            };
+
             renderSongs(getFilteredSongs());
         }
         
@@ -542,7 +589,6 @@
             document.getElementById('artists').textContent = song.artists || '-';
             document.getElementById('dateReleased').textContent = song.date_released || '-';
             document.getElementById('streams').textContent = song.streams ? Number(song.streams).toLocaleString() : '-';
-            document.getElementById('explicit').textContent = song.explicit ? 'Yes' : 'No';
             
             document.querySelectorAll('.song-item').forEach((item) => {
                 item.classList.remove('active');
