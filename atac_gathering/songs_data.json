@@ -1,10 +1,370 @@
 [
   {
+    "title":"20 Plus",
+    "artists":"Lilspazz9",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/n3-QbOpwEIY?si=9H8EQiqrNfqfBrxn",
+    "streams":1987178,
+    "date_released":2025,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"All I Need",
+    "artists":"Lloyd",
+    "youtube_url":"https:\/\/youtu.be\/15zse5jbU-Q?si=0VnVhlRYG8F14FZW",
+    "streams":8759201,
+    "date_released":2014,
+    "explicit":true,
+    "era":"classic",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Blindig lights",
+    "artists":"The weeknd",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/4NRXx6U8ABQ?si=KK2ADcxvoiLupeIL",
+    "streams":1000000000,
+    "date_released":2020,
+    "explicit":false,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Blinding Lights",
+    "artists":"The Weeknd",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/4NRXx6U8ABQ",
+    "streams":800000000,
+    "date_released":2019,
+    "explicit":false,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"CUFF IT",
+    "artists":"Beyonc\u00e9",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/v9o49zO2FfU",
+    "streams":180000000,
+    "date_released":2022,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Cinderella",
+    "artists":"Mac Miller feat Ty Dolla $ign",
+    "youtube_url":"\"https:\/\/www.youtube.com\/embed\/0fcsGS1dEro?si=_o3cZrrSGLD596Vk\"",
+    "streams":36500649,
+    "date_released":2016,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Cognac Queen",
+    "artists":"Megan Thee Stallion",
+    "youtube_url":"https:\/\/youtu.be\/GGwVkl56DNo?si=VqWIvEehaP2V_N6l",
+    "streams":32036350,
+    "date_released":2022,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Counting Stars",
+    "artists":"OneRepublic",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/hT_nvWreIhg",
+    "streams":4400000000,
+    "date_released":2013,
+    "explicit":false,
+    "era":"classic",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Diamonds",
+    "artists":"Rihanna",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/4mVo93E9wpU",
+    "streams":2500000000,
+    "date_released":2012,
+    "explicit":false,
+    "era":"classic",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Dreams and Nightmares",
+    "artists":"Meek Mill",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/S43S_eMvC-8",
+    "streams":450000000,
+    "date_released":2012,
+    "explicit":true,
+    "era":"classic",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Drip Too Hard",
+    "artists":"Lil Baby",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/uTRJ-S66m6g",
+    "streams":1200000000,
+    "date_released":2018,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Fire Flies",
+    "artists":"Owl City",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/psuRGfAaju4",
+    "streams":629000000,
+    "date_released":2009,
+    "explicit":false,
+    "era":"classic",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Flagpole Sitta",
+    "artists":"Harvey Danger",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/wYsMjEeEg4g?si=JnazjWUphOR8i6CV",
+    "streams":12000000,
+    "date_released":2014,
+    "explicit":false,
+    "era":"classic",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Geeked",
+    "artists":"Lucki",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/-UO9xzsnPKw?si=gGGXoDPqx4C2y5nY",
+    "streams":4200000,
+    "date_released":2019,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
     "title":"Girl, Get Up",
     "artists":"Doechii, SZA",
     "youtube_url":"https:\/\/www.youtube.com\/embed\/jBKJbedSrA0?si=R2lDU0OMZmacY3tY",
     "streams":5100000,
     "date_released":2025,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"HUMBLE.",
+    "artists":"Kendrick Lamar",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/tvTRZJ-4EyI",
+    "streams":920000000,
+    "date_released":2017,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Ian mean it shot by drevegas",
+    "artists":"imsomarcus",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/ILNT1ZYr3oE?si=iu38ILi45FNnT8av",
+    "streams":16901,
+    "date_released":2025,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"underground"
+  },
+  {
+    "title":"In For It",
+    "artists":"Tory Lanez",
+    "youtube_url":"https:\/\/youtu.be\/Amp86v4Nd8Q?si=580Spuf4zjCn2G5S",
+    "streams":59528124,
+    "date_released":2018,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"KiLLKiSS",
+    "artists":"Ave Mujica",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/RexyoaXaQ1o?si=wyHbFJSAVq17t-8w",
+    "streams":6923624,
+    "date_released":2025,
+    "explicit":false,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Kill Bill",
+    "artists":"SZA",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/lcX37Pzobxw",
+    "streams":450000000,
+    "date_released":2022,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"LOYALTY",
+    "artists":"Kendrick Lamar",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/sN8H2ypmzlA?si=wYFaQDitA-_Heo24",
+    "streams":1763334,
+    "date_released":2018,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"LUV",
+    "artists":"Tory Lanez",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/P9rFeGAdX0A?si=5oJNsXL8rdNXaYA2",
+    "streams":275815687,
+    "date_released":2016,
+    "explicit":false,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"MUTT",
+    "artists":"Leon Thomas, Chris Brown",
+    "youtube_url":"https:\/\/youtu.be\/ueLrb3-oVpY?si=quU91VILvgQtsfZe",
+    "streams":21200039,
+    "date_released":2025,
+    "explicit":false,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Mmm Yeah",
+    "artists":"Austin Mahone, Pitpull",
+    "youtube_url":"https:\/\/youtu.be\/MMAppa1cAVo?si=0aer88WtD37Mjo-P",
+    "streams":257648083,
+    "date_released":2014,
+    "explicit":false,
+    "era":"classic",
+    "popularity":"top hits"
+  },
+  {
+    "title":"NINAO",
+    "artists":"Gims",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/VT2qF97pQNw?si=hkmYaYCt_N0uwwI2",
+    "streams":256000000,
+    "date_released":2025,
+    "explicit":false,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"NewJeans (\ub274\uc9c4\uc2a4) \u2018Supernatural\u2019 Official MV (Part.1)",
+    "artists":"HYBE LABELS",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/ZncbtRo7RXs?si=Irgcwdn0BS1n-TUu",
+    "streams":95814355,
+    "date_released":2024,
+    "explicit":false,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Nights",
+    "artists":"Frank Ocean",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/r4l9bFqgMaQ",
+    "streams":350000000,
+    "date_released":2016,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Nothing like uuuuu",
+    "artists":"Nettspend",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/2cp_UrFXl0w?si=3dEdpaRIHNJ_2vfe",
+    "streams":1000000,
+    "date_released":2024,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"PARTYNEXTDOOR",
+    "artists":"PARTYNEXTDOOR",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/example",
+    "streams":150000000,
+    "date_released":2020,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Put Your Records On",
+    "artists":"Ritt Momney",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/u7Mf_ZjI2Pg?si=Vyaw-_s1ppGMlV0d",
+    "streams":20994428,
+    "date_released":2020,
+    "explicit":false,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Randomly",
+    "artists":"Lucki",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/-UO9xzsnPKw?si=nRVg_Uuaw3A9TUkN",
+    "streams":8000000,
+    "date_released":2023,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Real YN",
+    "artists":"Drake",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/Lilspazz9_RealYN",
+    "streams":677000,
+    "date_released":2023,
+    "explicit":false,
+    "era":"contemporary",
+    "popularity":"well known"
+  },
+  {
+    "title":"Riptide",
+    "artists":"Vance Joy",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/uJ_1HMAGb4k?si=lpTOfTPMyn7Hn1HK",
+    "streams":739000000,
+    "date_released":2013,
+    "explicit":false,
+    "era":"classic",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Selfish",
+    "artists":"PnB Rock",
+    "youtube_url":"\"https:\/\/www.youtube.com\/embed\/u4XyXLQxQbQ?si=ESTBlaXkEa_DGBlu\"",
+    "streams":77539193,
+    "date_released":2016,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Siren",
+    "artists":"Kailee Morgue",
+    "youtube_url":"https:\/\/youtu.be\/WKWG4zCALoE?si=dDUoXgaku-U9Mc5H",
+    "streams":9322877,
+    "date_released":2018,
+    "explicit":false,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"So Sick",
+    "artists":"Ne-Yo",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/IxszlJppRQI",
+    "streams":496000000,
+    "date_released":2009,
+    "explicit":false,
+    "era":"classic",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Starboy",
+    "artists":"The Weeknd",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/Rif-RTvmmss?si=wAMCc-f7WT7rkNNR",
+    "streams":90031660,
+    "date_released":2023,
     "explicit":true,
     "era":"contemporary",
     "popularity":"top hits"
@@ -20,6 +380,36 @@
     "popularity":"underground"
   },
   {
+    "title":"Sunset",
+    "artists":"Lucki",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/4-pdlpEwMao?si=tNa9_uhxkls_jnR3",
+    "streams":7000000,
+    "date_released":2025,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"TWICE\"Talk that Talk\" M\/V",
+    "artists":"TWICE",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/k6jqx9kZgPM?si=X1Qex5-l4-Ax115d",
+    "streams":219590569,
+    "date_released":2022,
+    "explicit":false,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Teyana",
+    "artists":"Tory Lanez",
+    "youtube_url":"\"https:\/\/www.youtube.com\/embed\/u7v8yEUPilU?si=8qE3xwd66EcxdHVO\"",
+    "streams":2171483,
+    "date_released":2014,
+    "explicit":true,
+    "era":"classic",
+    "popularity":"top hits"
+  },
+  {
     "title":"The Field",
     "artists":"Blood Orange",
     "youtube_url":"https:\/\/www.youtube.com\/embed\/yTaz0TB9Zco?si=jUT7iM6EdyZHr-u3",
@@ -30,6 +420,46 @@
     "popularity":"well known"
   },
   {
+    "title":"The bigger picture",
+    "artists":"lil baby",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/_VDGysJGNoI?si=KnGMjHqf-itXkZ7g",
+    "streams":212000000,
+    "date_released":2020,
+    "explicit":false,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Timeless",
+    "artists":"The weeknd & playboi carti",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/5EpyN_6dqyk?si=_vUSyJSy7Gfz1a97",
+    "streams":263000000,
+    "date_released":2025,
+    "explicit":false,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Treason",
+    "artists":"Tinashe",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/m4eVGPN-ZLc?si=3yjcH3yutKxKk9ZG",
+    "streams":556051,
+    "date_released":2023,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"well known"
+  },
+  {
+    "title":"Vultures",
+    "artists":"FullyChop",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/FdzPyCJpl_A?si=E0jZqKfHUyAIty6j",
+    "streams":1128409,
+    "date_released":2026,
+    "explicit":true,
+    "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
     "title":"Walking Shoes",
     "artists":"Mali Music",
     "youtube_url":"https:\/\/www.youtube.com\/embed\/1dexBLGQGSs?si=waNMbE0CHv9s_UeO",
@@ -37,6 +467,16 @@
     "date_released":2014,
     "explicit":false,
     "era":"classic",
+    "popularity":"top hits"
+  },
+  {
+    "title":"While We're Young",
+    "artists":"Jhen\u00e9 Aiko",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/LjvwRSKVQNs?si=ulvauqMsxdnjWzIF",
+    "streams":106554052,
+    "date_released":2017,
+    "explicit":true,
+    "era":"contemporary",
     "popularity":"top hits"
   },
   {
