@@ -150,6 +150,16 @@
     "popularity":"top hits"
   },
   {
+    "title":"Goodbye to Love",
+    "artists":"Carpenters",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/MxEjnYdfLXU?si=VWGOZajPTQRrAi1l",
+    "streams":2572645,
+    "date_released":1972,
+    "explicit":false,
+    "era":"oldie",
+    "popularity":"top hits"
+  },
+  {
     "title":"HUMBLE.",
     "artists":"Kendrick Lamar",
     "youtube_url":"https:\/\/www.youtube.com\/embed\/tvTRZJ-4EyI",
@@ -157,6 +167,26 @@
     "date_released":2017,
     "explicit":true,
     "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"I Will Survive",
+    "artists":"Gloria Gaynor",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/6dYWe1c3OyU?si=CSVmWbAgI1w-1A2r",
+    "streams":186956675,
+    "date_released":1978,
+    "explicit":false,
+    "era":"oldie",
+    "popularity":"top hits"
+  },
+  {
+    "title":"I Wonder",
+    "artists":"Kanye West",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/MxEjnYdfLXU?si=VWGOZajPTQRrAi1l",
+    "streams":165596492,
+    "date_released":2007,
+    "explicit":true,
+    "era":"classic",
     "popularity":"top hits"
   },
   {
@@ -177,6 +207,16 @@
     "date_released":2018,
     "explicit":true,
     "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"In the Air Tonight",
+    "artists":"Phil Collins",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/YkADj0TPrJA?si=u5dI2lLLax2zRy9i",
+    "streams":343028265,
+    "date_released":1981,
+    "explicit":true,
+    "era":"oldie",
     "popularity":"top hits"
   },
   {
@@ -477,6 +517,16 @@
     "date_released":2017,
     "explicit":true,
     "era":"contemporary",
+    "popularity":"top hits"
+  },
+  {
+    "title":"Workin Day and Night",
+    "artists":"Michael Jackson",
+    "youtube_url":"https:\/\/www.youtube.com\/embed\/MWnyCxva6bA?si=xKN1KAaynTbEoP3",
+    "streams":22227316,
+    "date_released":1979,
+    "explicit":false,
+    "era":"oldie",
     "popularity":"top hits"
   },
   {
