@@ -80,16 +80,6 @@
     "popularity":"top hits"
   },
   {
-    "title":"MUTT",
-    "artists":"Leon Thomas, Chris Brown",
-    "youtube_url":"https:\/\/youtu.be\/ueLrb3-oVpY?si=quU91VILvgQtsfZe",
-    "streams":21200039,
-    "date_released":2025,
-    "explicit":false,
-    "era":"contemporary",
-    "popularity":"top hits"
-  },
-  {
     "title":"Mmm Yeah",
     "artists":"Austin Mahone, Pitpull",
     "youtube_url":"https:\/\/youtu.be\/MMAppa1cAVo?si=0aer88WtD37Mjo-P",
@@ -130,16 +120,6 @@
     "popularity":"top hits"
   },
   {
-    "title":"Riptide",
-    "artists":"Vance Joy",
-    "youtube_url":"https:\/\/www.youtube.com\/embed\/uJ_1HMAGb4k?si=lpTOfTPMyn7Hn1HK",
-    "streams":739000000,
-    "date_released":2013,
-    "explicit":false,
-    "era":"classic",
-    "popularity":"top hits"
-  },
-  {
     "title":"Siren",
     "artists":"Kailee Morgue",
     "youtube_url":"https:\/\/youtu.be\/WKWG4zCALoE?si=dDUoXgaku-U9Mc5H",
@@ -160,7 +140,7 @@
     "popularity":"top hits"
   },
   {
-    "title":"TWICE\"Talk that Talk\" M\/V",
+    "title":"Talk that Talk\" M\/V",
     "artists":"TWICE",
     "youtube_url":"https:\/\/www.youtube.com\/embed\/k6jqx9kZgPM?si=X1Qex5-l4-Ax115d",
     "streams":219590569,
@@ -178,26 +158,6 @@
     "explicit":false,
     "era":"contemporary",
     "popularity":"well known"
-  },
-  {
-    "title":"The bigger picture",
-    "artists":"lil baby",
-    "youtube_url":"https:\/\/www.youtube.com\/embed\/_VDGysJGNoI?si=KnGMjHqf-itXkZ7g",
-    "streams":212000000,
-    "date_released":2020,
-    "explicit":false,
-    "era":"contemporary",
-    "popularity":"top hits"
-  },
-  {
-    "title":"Timeless",
-    "artists":"The weeknd & playboi carti",
-    "youtube_url":"https:\/\/www.youtube.com\/embed\/5EpyN_6dqyk?si=_vUSyJSy7Gfz1a97",
-    "streams":263000000,
-    "date_released":2025,
-    "explicit":false,
-    "era":"contemporary",
-    "popularity":"top hits"
   },
   {
     "title":"Walking Shoes",
